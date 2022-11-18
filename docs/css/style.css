@@ -1681,16 +1681,32 @@ msrgin-top: 14px;
   align-items: center;
 
 }
-..socialmap {
+.footer__map{
+margin: 0 auto;
+  padding-top: 2rem;
+  height: 300px;
+  max-width: 1000px;
+  width: 100%;
+}
+.footer__map iframe{
+  height: 300px;
+  width: 100%;
+}
+.socialmap {
+  margin: 0 auto;
+    /* display: flex;
+justify-content: center; */
     height: 300px;
-    max-width: 1180px;
-    padding-top: 4rem;
+    max-width: 1000px;
+    padding-top: 2rem;
     padding-bottom: 0rem;
     margin-bottom: 0rem;
 }
 #map {
+      display: flex;
+justify-content: center;
    margin: 0 auto;
-    max-width: 1180px;
+    max-width: 1080px;
     min-height: 300px;
     -webkit-filter: grayscale(100%);
     /* Safari 6.0 - 9.0 */
